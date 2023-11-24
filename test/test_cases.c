@@ -42,13 +42,13 @@ void runTests() {
     }
 
     printf("\nTest Case 5: List Immediate Directory\n");
-    listDirectory("C:\\Users\\x\\Documents\\Code\\C++\\IO\\test");
+    listDirectory("C:\\Users\\x\\Documents\\GitHub\\c-fs\\test");
 
     printf("\nTest Case 6: List All Directories\n");
-    listDirectories("C:\\Users\\x\\Documents\\Code\\C++\\IO\\test", 0);
+    listDirectories("C:\\Users\\x\\Documents\\GitHub\\c-fs\\test", 0);
 
     printf("\nTest Case 6: File Tree\n");
-    fileTree("C:\\Users\\x\\Documents\\Code\\C++\\IO\\test", 0);
+    fileTree("C:\\Users\\x\\Documents\\GitHub\\c-fs\\test", 0);
 
     printf("\nTest Case 7: Clean up File System\n");
     cleanupFileSystem();
